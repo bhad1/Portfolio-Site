@@ -1,3 +1,26 @@
 .jumbotron{
   background-color: #4CAF50;
 }
+li{
+  list-style: none;
+}
+.jumbotron li, .jumbotron h1, #view-work-button{
+  color: white;
+}
+@media screen and (min-width: 768px){
+  .jumbotron{
+    padding-top: 185px;
+    padding-bottom: 130px;
+  }
+  #view-work-button{
+    font-size: 18px;
+  }
+}
+#view-work-button{
+  margin-top: 75px;
+  margin-left: 60px;
+}
+#view-work-button:hover {
+  color: #333;
+  background-color: transparent;
+}
