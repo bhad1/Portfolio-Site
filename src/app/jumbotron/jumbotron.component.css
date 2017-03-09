@@ -16,11 +16,10 @@ li{
     font-size: 18px;
   }
 }
-#view-work-button{
+#project-list{
   margin-top: 75px;
-  margin-left: 60px;
+  color: white;
 }
-#view-work-button:hover {
-  color: #333;
-  background-color: transparent;
+ul{
+  padding-left: 10px;
 }
