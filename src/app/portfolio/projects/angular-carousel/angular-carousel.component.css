@@ -1,0 +1,19 @@
+.carousel{
+  height: 600px;
+  overflow: hidden;
+}
+.slides{
+  height: 100%;
+  padding: 0;
+}
+.slides li{
+  list-style: none;
+  height: 100%;
+}
+.slides li img{
+  height: 100%;
+  width: 100%
+}
+.container{
+  width: 1329px;
+}

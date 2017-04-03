@@ -1,1 +1,5 @@
-<ps-jumbotron></ps-jumbotron>
+<ps-jumbotron (showProjectNumber)= "showProjectNumber($event)"></ps-jumbotron>
+<!--whats in the brackets is what your calling from parent and whats in parenthesis is what variable name will be in @Input() in the child.-->
+<ps-carousel [showProjectNumber]="projectNumber"></ps-carousel>
+<ps-product-listing [showProjectNumber]="projectNumber"></ps-product-listing>
+

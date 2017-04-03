@@ -1,0 +1,11 @@
+<div class="container" [hidden]="!showProject">
+  <div class="carousel">
+    <ul class="slides">
+      <!-- gives first element of the list the class name "first" -->
+      <li *ngFor="let image of images; let i = index" value="{{i}}">
+        <img src="{{image.url}}" alt="">
+      </li>
+
+    </ul>
+  </div>
+</div>

@@ -15,6 +15,8 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
 import { AboutInfoComponent } from './about/about-info/about-info.component';
 import { FooterComponent } from './footer/footer.component';
 import { HireMeComponent } from './hire-me/hire-me.component';
+import { ProductListingComponent } from './portfolio/projects/product-listing/product-listing.component';
+import { AngularCarouselComponent } from './portfolio/projects/angular-carousel/angular-carousel.component';
 
 const appRoutes: Routes = [
 
@@ -38,7 +40,10 @@ const appRoutes: Routes = [
     ContactMeComponent,
     AboutInfoComponent,
     FooterComponent,
-    HireMeComponent
+    HireMeComponent,
+    ProductListingComponent,
+    ProductListingComponent,
+    AngularCarouselComponent
   ],
   imports: [
     BrowserModule,
