@@ -1,24 +1,19 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
   <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/portfolio">Brand</a>
-    </div>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Bryan Hadaway</a>
+
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a routerLink="/about" routerLinkActive="active" class="hvr-float-shadow">ABOUT</a></li>
-        <li><a routerLink="/portfolio" class="hvr-float-shadow">PORTFOLIO</a></li>
-        <li><a routerLink="/contact" class="hvr-float-shadow">CONTACT</a></li>
-        <li class="hire-me-div"><a routerLink="/hire-me" class="hire-me-text">HIRE ME</a></li>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a routerLink="/about" routerLinkActive="active" class="nav-link">ABOUT</a></li>
+        <li class="nav-item"><a  routerLink="/portfolio" routerLinkActive="active" class="nav-link">PORTFOLIO</a></li>
+        <li class="nav-item"><a routerLink="/contact" routerLinkActive="active" class="nav-link">CONTACT</a></li>
+        <li class="nav-item"><a routerLink="/hire-me" routerLinkActive="active" class="hire-me-text nav-link">HIRE ME</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+  </div><!-- /.container -->
 </nav>

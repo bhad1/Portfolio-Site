@@ -9,7 +9,7 @@ li{
 }
 @media screen and (min-width: 768px){
   .jumbotron{
-    padding-top: 185px;
+    padding-top: 125px;
     padding-bottom: 130px;
   }
   #view-work-button{

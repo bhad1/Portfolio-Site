@@ -23,7 +23,7 @@ export class AngularCarouselComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges() {
-    if(this.showProjectNumber == 1){
+    if(this.showProjectNumber == 2){
       this.showProject = true;
     }else {
       this.showProject = false;
