@@ -35,7 +35,7 @@ export class AngularCarouselComponent implements OnInit, OnChanges {
 
 var IMAGES: Image[] = [
   {"name": "First", "url": "https://placekitten.com/g/2000/1500"},
-  {"name": "Second", "url": "https://placekitten.com/g/1400/1100"},
-  {"name": "Third", "url": "https://placekitten.com/g/1000/1000"},
-  {"name": "Fourth", "url": "https://placekitten.com/g/1200/1500"}
+  {"name": "Second", "url": "https://placekitten.com/g/3000/2000"},
+  {"name": "Third", "url": "https://placekitten.com/g/2000/1500"},
+  {"name": "Fourth", "url": "https://placekitten.com/g/3000/2000"}
 ];

@@ -3,7 +3,7 @@
     <ul class="slides">
       <!-- gives first element of the list the class name "first" -->
       <li *ngFor="let image of images; let i = index" value="{{i}}">
-        <img src="{{image.url}}" alt="">
+        <img src="{{image.url}}" class="img-fluid" alt="">
       </li>
 
     </ul>
