@@ -17,6 +17,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HireMeComponent } from './hire-me/hire-me.component';
 import { ProductListingComponent } from './portfolio/projects/product-listing/product-listing.component';
 import { AngularCarouselComponent } from './portfolio/projects/angular-carousel/angular-carousel.component';
+import { ProductListingDescriptionComponent } from './portfolio/project-descriptions/product-listing-description/product-listing-description.component';
 
 const appRoutes: Routes = [
 
@@ -43,7 +44,8 @@ const appRoutes: Routes = [
     HireMeComponent,
     ProductListingComponent,
     ProductListingComponent,
-    AngularCarouselComponent
+    AngularCarouselComponent,
+    ProductListingDescriptionComponent
   ],
   imports: [
     BrowserModule,

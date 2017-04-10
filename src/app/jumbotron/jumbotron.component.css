@@ -10,7 +10,7 @@ li{
 @media screen and (min-width: 768px){
   .jumbotron{
     padding-top: 125px;
-    padding-bottom: 130px;
+    padding-bottom: 0px;
   }
   #view-work-button{
     font-size: 18px;
@@ -30,4 +30,7 @@ a{
 }
 a{
   cursor: pointer;
+}
+.projects a:hover, .projects a:active{
+  color: rgba(0, 0, 0, 0.9);
 }

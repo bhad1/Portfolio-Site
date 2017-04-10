@@ -2,7 +2,7 @@ import {Component, OnInit, Input, OnChanges} from '@angular/core';
 declare var $:any;
 
 @Component({
-  selector: 'ps-product-listing',
+  selector: 'app-ps-product-listing',
   templateUrl: 'product-listing.component.html',
   styleUrls: ['product-listing.component.css']
 })
@@ -91,7 +91,7 @@ export class ProductListingComponent implements OnInit, OnChanges {
           "description": "This is a specialized product at a special price just for the holidays. We always take great care with each of our products.",
           "price": "$99.99"
         }
-    ]
+    ];
   }
 
   ngOnInit() {
@@ -99,7 +99,7 @@ export class ProductListingComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges() {
-    if(this.showProjectNumber == 1){
+    if(this.showProjectNumber === 1){
       this.showProject = true;
     }else {
       this.showProject = false;
