@@ -17,3 +17,37 @@
 .container{
   width: 1329px;
 }
+.arrow{
+  position: relative;
+  color: white;
+}
+.arrow:hover{
+  color: grey;
+  cursor: pointer;
+}
+.arrowContainer{
+  position: relative;
+  top: -350px;
+}
+.fa-arrow-right{
+  float: right;
+}
+.transparent-circle {
+  background-color: rgba(204, 0, 102, 0);
+  border: 1px solid #000;
+  height: 25px;
+  width: 25px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  display: inline-block;
+  border: 2px solid white;
+}
+.transparent-circle:hover{
+  background-color: white;
+  cursor: pointer;
+}
+.circlesContainer{
+  text-align: center;
+  position: relative;
+  bottom: 115px;
+}

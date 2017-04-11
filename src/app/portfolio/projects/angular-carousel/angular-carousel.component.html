@@ -1,11 +1,15 @@
 <div class="container" [hidden]="!showProject">
   <div class="carousel">
-    <ul class="slides">
-      <!-- gives first element of the list the class name "first" -->
-      <li *ngFor="let image of images; let i = index" value="{{i}}">
-        <img src="{{image.url}}" class="img-fluid" alt="">
-      </li>
-
-    </ul>
+        <img src="{{images[showImage].url}}" class="img-fluid" alt="">
   </div>
+  <div class="arrowContainer">
+    <i class="fa fa-arrow-right fa-4x arrow" (click)='nextImage()'></i>
+    <i class="fa fa-arrow-left fa-4x arrow" (click)='prevImage()'></i>
+  </div>
+<div class="circlesContainer">
+  <div class="transparent-circle" (click)='setImageIndicators(0)' [style.background-color]="fillCircleOne()"></div>
+  <div class="transparent-circle" (click)='setImageIndicators(1)' [style.background-color]="fillCircleTwo()"></div>
+  <div class="transparent-circle" (click)='setImageIndicators(2)' [style.background-color]="fillCircleThree()"></div>
+  <div class="transparent-circle" (click)='setImageIndicators(3)' [style.background-color]="fillCircleFour()"></div>
+</div>
 </div>
