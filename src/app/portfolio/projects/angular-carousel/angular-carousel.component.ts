@@ -75,12 +75,6 @@ export class AngularCarouselComponent implements OnInit, OnChanges {
       if(this.showImage === this.images.length){
         this.showImage = 0;
       }
-      // if(this.showImage === this.images.length-1){
-      //   this.showImage = 0;
-      // }else{
-      //   this.showImage ++;
-      // }
-      console.log(this.showImage);
     }, 5000);
 
   }

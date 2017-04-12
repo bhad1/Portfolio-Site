@@ -23,31 +23,9 @@
   margin-top: 20px;
 }
 
-.hire-me-div {
-  display: inline-block;
-  background: #222222;
-  /* -webkit-transition-duration: .3s; */
-  -moz-transition-duration: .3s;
-  -ms-transition-duration: .3s;
-  -o-transition-duration: .3s;
-  transition-duration: .3s;
-  -webkit-transition-property: background;
-  -moz-transition-property: background;
-  -ms-transition-property: background;
-  -o-transition-property: background;
-  transition-property: background;
-}
-
-.navbar-default .navbar-nav>.hire-me-div>a:focus, .navbar-default .navbar-nav> .hire-me-div>a:hover {
-  color: white;
-  background: #524e4e;
-  /* -webkit-transition-duration: .3s; */
-  -moz-transition-duration: .3s;
-  -ms-transition-duration: .3s;
-  -o-transition-duration: .3s;
-  transition-duration: .3s;
-  -webkit-transition-property: background;
-  -moz-transition-property: background;
-  -ms-transition-property: background;
-  -o-transition-property: background;
+@media (max-width: 575px){
+  .container {
+      width: 540px;
+      max-width: 100%;
+  }
 }

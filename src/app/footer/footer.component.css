@@ -59,7 +59,7 @@ a{
   dt{
     display: inline-block;
     text-align: center;
-    width: 22%;
+    width: 32%;
     font-size: 15px;
   }
 }
@@ -68,4 +68,13 @@ a{
     flex: none;
     max-width: none;
   }
+}
+@media (max-width: 991px){
+  .col-md-4 {
+      flex: inherit;
+      max-width: inherit;
+  }
+}
+.ddPhoneNum{
+  margin-bottom: 0px;
 }

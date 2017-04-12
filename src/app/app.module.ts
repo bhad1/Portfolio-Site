@@ -14,10 +14,10 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { AboutInfoComponent } from './about/about-info/about-info.component';
 import { FooterComponent } from './footer/footer.component';
-import { HireMeComponent } from './hire-me/hire-me.component';
 import { ProductListingComponent } from './portfolio/projects/product-listing/product-listing.component';
 import { AngularCarouselComponent } from './portfolio/projects/angular-carousel/angular-carousel.component';
 import { ProductListingDescriptionComponent } from './portfolio/project-descriptions/product-listing-description/product-listing-description.component';
+import { AngularCarouselDescriptionComponent } from './portfolio/project-descriptions/angular-carousel-description/angular-carousel-description.component';
 
 const appRoutes: Routes = [
 
@@ -41,11 +41,11 @@ const appRoutes: Routes = [
     ContactMeComponent,
     AboutInfoComponent,
     FooterComponent,
-    HireMeComponent,
     ProductListingComponent,
     ProductListingComponent,
     AngularCarouselComponent,
-    ProductListingDescriptionComponent
+    ProductListingDescriptionComponent,
+    AngularCarouselDescriptionComponent
   ],
   imports: [
     BrowserModule,
