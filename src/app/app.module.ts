@@ -18,12 +18,13 @@ import { ProductListingComponent } from './portfolio/projects/product-listing/pr
 import { AngularCarouselComponent } from './portfolio/projects/angular-carousel/angular-carousel.component';
 import { ProductListingDescriptionComponent } from './portfolio/project-descriptions/product-listing-description/product-listing-description.component';
 import { AngularCarouselDescriptionComponent } from './portfolio/project-descriptions/angular-carousel-description/angular-carousel-description.component';
+import { AlbumModuleComponent } from './portfolio/projects/album-module/album-module.component';
+import { AlbumModuleDescriptionComponent } from './portfolio/project-descriptions/album-module-description/album-module-description.component';
 
 const appRoutes: Routes = [
 
   {path: 'about', component: AboutComponent},
   {path: 'portfolio', component: PortfolioComponent},
-  {path: 'contact-me', component: ContactMeComponent},
   {path: '', redirectTo: '/portfolio', pathMatch: 'full'},
   {path: '**', component: PageNotFoundComponent}
 
@@ -45,7 +46,9 @@ const appRoutes: Routes = [
     ProductListingComponent,
     AngularCarouselComponent,
     ProductListingDescriptionComponent,
-    AngularCarouselDescriptionComponent
+    AngularCarouselDescriptionComponent,
+    AlbumModuleComponent,
+    AlbumModuleDescriptionComponent
   ],
   imports: [
     BrowserModule,

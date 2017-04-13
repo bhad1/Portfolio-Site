@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  scrollBottom(){
+    window.scrollTo(0,document.body.scrollHeight);
+  }
+
   constructor() { }
 
   ngOnInit() {

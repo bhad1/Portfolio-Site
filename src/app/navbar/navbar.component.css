@@ -29,3 +29,6 @@
       max-width: 100%;
   }
 }
+.contact-me-link{
+  cursor: pointer;
+}

@@ -1,7 +1,7 @@
 .jumbotron{
   background-color: #4CAF50;
   margin-bottom: 0;
-  padding-top: 30px;
+  padding-top: 75px;
   padding-bottom: 0;
 }
 li{
@@ -24,7 +24,7 @@ li{
   }
 }
 #project-list{
-  margin-top: 30px;
+  margin-top: 80px;
   color: white;
 }
 ul{
@@ -34,8 +34,6 @@ a{
   color: white;
   text-decoration: none;
   font-size: 20px;
-}
-a{
   cursor: pointer;
 }
 .projects a:hover, .projects a:active{

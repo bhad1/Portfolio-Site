@@ -1,7 +1,7 @@
 import { Component, Input, OnInit, OnChanges } from '@angular/core';
 
 @Component({
-  selector: 'app-angular-carousel-description',
+  selector: 'app-ps-angular-carousel-description',
   templateUrl: './angular-carousel-description.component.html',
   styleUrls: ['./angular-carousel-description.component.css']
 })

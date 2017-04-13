@@ -78,3 +78,10 @@ a{
 .ddPhoneNum{
   margin-bottom: 0px;
 }
+.contact-me{
+  color: white !important;
+}
+.contact-me:hover{
+  text-decoration: underline !important;
+  cursor: pointer;
+}
