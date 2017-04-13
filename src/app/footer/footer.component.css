@@ -9,6 +9,7 @@
   padding-left: 0;
   margin-top: 20px;
   margin-bottom: 40px;
+  content: 'asdfhasdflkjasdf;laksjdf';
 }
 .my-photo-footer{
   float: left;
@@ -85,3 +86,9 @@ a{
   text-decoration: underline !important;
   cursor: pointer;
 }
+/*@media (max-width: 767px){*/
+  /*.footerText{*/
+    /*display: none;*/
+  /*}*/
+
+/*}*/

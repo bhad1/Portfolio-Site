@@ -32,3 +32,12 @@
 .contact-me-link{
   cursor: pointer;
 }
+.fa-line-chart{
+  color: black;
+}
+.fa-line-chart:hover i{
+  color: white;
+}
+/*.navbar-brand:hover{*/
+  /*color: white;*/
+/*}*/
