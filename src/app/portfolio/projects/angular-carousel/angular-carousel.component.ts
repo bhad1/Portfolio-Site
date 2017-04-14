@@ -2,7 +2,7 @@ import {Component, OnInit, Input, OnChanges} from '@angular/core';
 import {Image} from './image';
 
 const IMAGES: Image[] = [
-  {"name": "First", "url": "https://placekitten.com/g/2000/1500"},
+  {"name": "First", "url": "https://placekitten.com/g/1500/1000"},
   {"name": "Second", "url": "https://placekitten.com/g/3000/2000"},
   {"name": "Third", "url": "https://placekitten.com/g/1500/1000"},
   {"name": "Fourth", "url": "https://placekitten.com/g/6000/4000"}
