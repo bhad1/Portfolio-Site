@@ -51,3 +51,19 @@
   position: relative;
   bottom: 115px;
 }
+
+  @media (max-width: 900px) {
+      .carousel{
+        max-height: 500px;
+      }
+  }
+  @media (max-width: 760px) {
+    .carousel{
+      max-height: 400px;
+    }
+  }
+  @media (max-width: 575px) {
+    .carousel{
+      width: auto;
+    }
+  }
